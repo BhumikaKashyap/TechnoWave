@@ -1,0 +1,6 @@
+@TechnoWave.API_HostAddress = http://localhost:5095
+
+GET {{TechnoWave.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
