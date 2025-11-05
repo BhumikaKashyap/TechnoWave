@@ -21,8 +21,4 @@
     <ProjectReference Include="..\TechnoWave.Core\TechnoWave.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>

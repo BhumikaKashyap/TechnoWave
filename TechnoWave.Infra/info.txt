@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext "Server=SK;Database=TechnoWave;Integrated Security=True;TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Context -Context TechnoWave -f
