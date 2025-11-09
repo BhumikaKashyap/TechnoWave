@@ -8,6 +8,8 @@ namespace TechnoWave
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSession();
+            builder.Services.AddHttpContextAccessor();
 
             var app = builder.Build();
 
@@ -23,7 +25,7 @@ namespace TechnoWave
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseSession();
             app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",

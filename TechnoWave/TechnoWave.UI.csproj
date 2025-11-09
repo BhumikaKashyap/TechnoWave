@@ -6,4 +6,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Middleware\" />
+    <Folder Include="Models\RequestVm\" />
+    <Folder Include="Services\Api\" />
+    <Folder Include="Services\Helpers\" />
+  </ItemGroup>
+
 </Project>
